@@ -35,7 +35,7 @@ Separate commands are created to control car in the following directions:
 
 `forward.sh` - turn on DC motor to move forward (pwm speed = 0.5).
 
-`backward.sh` - turn on DC motor to move forward (pwm speed = 0.5).
+`backward.sh` - turn on DC motor to move backward (reverse, pwm speed = 0.5).
 
 `stop.sh` - turn off DC motor to stop the vehicle.
 
@@ -49,6 +49,7 @@ Separate commands are created to control car in the following directions:
 
 ### Hi level car control
 `go.sh` - script to set the speed of vehicle. First argument values: `forward`, `backward` or `stop`.
+
 `steer.sh` - script to steer front wheels of car to change the direction. First argument values: `straight`, `left` or `right`.
 
 ### Simples parking script

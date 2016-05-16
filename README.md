@@ -12,11 +12,11 @@ The parking is initialized by running the following script:
 Dependecies
 -----------
 
-There are some dependecies. The presences of `/etc/rc.local` script that is part of [udpmotorcontrol repository](https://github.com/FIIT-TNL/udpmotorcontrol) is assumed. 
+There are some dependecies. The presences of `/etc/rc.local` script that is part of **[udpmotorcontrol repository](https://github.com/FIIT-TNL/udpmotorcontrol)** is assumed. 
 
-To control DC motors **(pi-blaster)[https://github.com/sarfata/pi-blaster]** is used.
+To control DC motors **[pi-blaster](https://github.com/sarfata/pi-blaster)** is used.
 
-To control servos (steering) **[ServoBlaster project](https://github.com/richardghirst/PiBits/tree/master/ServoBlaster) is used.
+To control servo motors (steering) **[ServoBlaster project](https://github.com/richardghirst/PiBits/tree/master/ServoBlaster)** is used.
 
 Files
 -----
